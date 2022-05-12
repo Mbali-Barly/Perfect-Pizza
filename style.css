@@ -1,3 +1,29 @@
 body {
-    background-color: aliceblue;
+    background-image: linear-gradient(red, yellow, green);
+}
+
+.intro {
+    background-image: image('IMG_20181105_113953.jpg');
+    border: 0.1em solid;
+    color: rgb(115, 170, 152);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+
+}
+@media (min-width: 768px) {
+    body {
+        background-image: conic-gradient(red, yellow, blue)
+    }
+ .myIntro {
+ display : flex;
+ align-items: center;
+}
+}
+.myImg {
+    margin: auto;
+    width: 30%;
+    /* border: 3px solid green; */
+    /* padding: 20px; */
 }
