@@ -14,6 +14,74 @@ body {
 }
 
 h1 {text-align: center;}
+.myImg {
+    margin: auto;
+    width: 30%;
+    /* border: 3px solid green; */
+    /* padding: 20px; */
+}
+.City {
+    background-image: url("https://thumbs.dreamstime.com/b/statue-liberty-cityscape-manhattan-night-new-york-city-usa-102478977.jpg");
+    border: 0.1em solid;
+    color: rgb(115, 170, 152);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    display : flex;
+}
+.table {
+    background-image: linear-gradient(green, yellow, red);
+    border: 0.1 solid
+}
+.Favourite_Subject1 {
+    border: 0.1em solid;
+    padding: 1em;
+    margin: 1em;
+}
+.Favourite_Subject2 {
+    border: 0.1em solid;
+    padding: 1em;
+    margin: 1em;
+}
+.Favourite_Subject3 {
+    border: 0.1em solid;
+    padding: 1em;
+    margin: 1em;
+}
+.place1 {
+    background-image: url("https://www.sa-venues.com/visit/dorealgrande/02.jpg");
+    border: 0.1em solid;
+    color: rgb(115, 170, 152);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    width: 38%;
+}
+.h3 {text-decoration-color: black;}
+.place2 {
+    background-image: url("20220516_110618.jpg");
+    border: 0.1em solid;
+    color: rgb(115, 170, 152);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    width: 38%;
+}
+.myImg2 {
+    margin: auto;
+    width: 30%;
+}
+.place3 {
+    background-image: url("https://th.bing.com/th/id/R.2581024c646a8fb85ad69cfe45d5d706?rik=bn7NWyCInsq6gw&pid=ImgRaw&r=0");
+    border: 0.1em solid;
+    color: rgb(115, 170, 152);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    width: 38%;
+}
+
+
 
 @media (min-width: 768px) {
     body {
@@ -23,16 +91,21 @@ h1 {text-align: center;}
  display : flex;
  align-items: center;
 }
-}
-.myImg {
-    margin: auto;
-    width: 30%;
-    /* border: 3px solid green; */
-    /* padding: 20px; */
-}
-.City {
+ .myCity {
     display : flex;
-    padding: 20px;
+    align-items: center;
+   }
+ .table {
+ display : flex;
 }
+.Favourite_Subjects {
+    display : flex;
+   }
+.Historical_Places {
+    display: flex;
+}
+}
+
+
 
 
